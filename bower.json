@@ -1,11 +1,12 @@
 {
   "name": "font-awesome",
   "description": "Font Awesome",
-  "keywords": [],
   "homepage": "http://fontawesome.io",
-  "dependencies": {},
-  "devDependencies": {},
-  "license": ["OFL-1.1", "MIT", "CC-BY-3.0"],
+  "license": [
+    "OFL-1.1",
+    "MIT",
+    "CC-BY-3.0"
+  ],
   "main": [
     "css/font-awesome.css",
     "less/font-awesome.less",
@@ -18,6 +19,16 @@
     "*.yml",
     "Gemfile",
     "Gemfile.lock",
-    "*.md"
+    "*.md",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "4.4.0",
+  "moduleType": [
+    "globals",
+    "node"
   ]
 }
